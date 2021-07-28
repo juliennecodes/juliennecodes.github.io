@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import "./ProjectPage.css";
 
 export function ProjectPage({ project, prev, next }) {
   return (
@@ -14,7 +15,9 @@ export function ProjectPage({ project, prev, next }) {
 
       <section className="project-goal">
         <h2>Goal</h2>
-        <p>{project.goal}</p>
+        {project.goal.map((paragraph, index) => {
+          return <p key={index}>{paragraph}</p>;
+        })}
       </section>
 
       <DemoVideo video={project.video.video} poster={project.video.poster} />

@@ -31,9 +31,12 @@ export const annotate = {
   heading:
     "Elegant digital solution for cataloguing thoughts on interesting images",
 
-    pagesImage: annotatePages,
+  pagesImage: annotatePages,
 
-  goal: "Annotate is the capstone project for All Aboard Bootcamp(insert link). The directives for this project was to use the concepts learned in the bootcamp and create an app that was of personal interest. I chose to make Annotate because I collect interesting images I find on the web and I wanted to make notes of why I find them so. I wanted to have a record of my thoughts so I don’t have to rely on my memory to remember what aspect of the image I was particularly drawn to.",
+  goal: [
+    "Annotate is the capstone project for All Aboard Bootcamp(insert link). The directives for this project was to use the concepts learned in the bootcamp and create an app that was of personal interest.",
+    "I chose to make Annotate because I collect interesting images I find on the web and I wanted to make notes of why I find them so. I wanted to have a record of my thoughts so I don’t have to rely on my memory to remember what aspect of the image I was particularly drawn to.",
+  ],
 
   technology: "React Frontend and Rails Backend",
 
@@ -89,8 +92,7 @@ export const pomodoro = {
 
   pagesImage: pomodoroPages,
 
-
-  goal: "My goal in Pomodoro was to write a complete working app. I chose Pomodoro because I use pomodoro timers to help with my productivity. The concept of pomodoro timer is something I am familiar with and something I have strong opinions on. Now that I was more experienced in React, I was in a position to make my ideal pomodoro timer and that’s what I did in Pomodoro.",
+  goal: ["My goal in Pomodoro was to write a complete working app. I chose Pomodoro because I use pomodoro timers to help with my productivity. The concept of pomodoro timer is something I am familiar with and something I have strong opinions on. Now that I was more experienced in React, I was in a position to make my ideal pomodoro timer and that’s what I did in Pomodoro."],
 
   technology: "React",
 
@@ -144,7 +146,7 @@ export const seasideCafe = {
 
   pagesImage: seasideCafePages,
 
-  goal: "Seaside Cafe was primarily written to practice client-server communication. The frontend client makes GET, POST, and DELETE requests and the backend server responds with JSON.",
+  goal: ["Seaside Cafe was primarily written to practice client-server communication. The frontend client makes GET, POST, and DELETE requests and the backend server responds with JSON."],
 
   technology: "React Frontend and Express Backend",
 
