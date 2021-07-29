@@ -39,8 +39,8 @@ export function ProjectPage({ project, prev, next }) {
         <ul className="project-blog-posts-links">
           {project.blogPosts.map((bp, index) => {
             return (
-              <li className="project-blog-post-link" key={index}>
-                <a href={bp.url}>{bp.title}</a>
+              <li key={index}>
+                <a className="project-blog-post-link" href={bp.url}>{bp.title}</a>
               </li>
             );
           })}
@@ -95,12 +95,12 @@ function DemoVideo({ video, poster }) {
 function ProjectExternalLinks({ project }) {
   return (
     <ul className="project-external-links">
-      <li className="project-external-link">
-        <a href={project.links.github}>View GitHub Repository</a>
+      <li>
+        <a className="project-external-link" href={project.links.github}>View GitHub Repository</a>
       </li>
 
-      <li className="project-external-link">
-        <a href={project.links.prod}>View {project.title}</a>
+      <li>
+        <a className="project-external-link" href={project.links.prod}>View {project.title}</a>
       </li>
     </ul>
   );

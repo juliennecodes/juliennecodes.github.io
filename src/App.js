@@ -3,7 +3,7 @@ import { projects } from "./contents/projects";
 import { Header } from "./components/Header";
 import { Homepage } from "./pages/Homepage/Homepage";
 import { ProjectPage } from "./pages/ProjectPage/ProjectPage";
-
+import "./App.css";
 
 function App() {
   return (

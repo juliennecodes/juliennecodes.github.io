@@ -34,7 +34,7 @@ export const annotate = {
   pagesImage: annotatePages,
 
   goal: [
-    "Annotate is the capstone project for All Aboard Bootcamp(insert link). The directives for this project was to use the concepts learned in the bootcamp and create an app that was of personal interest.",
+    "Annotate is the capstone project for All Aboard Bootcamp. The directives for this project was to use the concepts learned in the bootcamp and create an app that was of personal interest.",
     "I chose to make Annotate because I collect interesting images I find on the web and I wanted to make notes of why I find them so. I wanted to have a record of my thoughts so I don’t have to rely on my memory to remember what aspect of the image I was particularly drawn to.",
   ],
 

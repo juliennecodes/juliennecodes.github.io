@@ -1,0 +1,60 @@
+* {
+  color: black;
+}
+
+.App {
+  background-color: hsl(204, 45%, 98%);
+}
+
+header {
+    background-color: hsl(210, 38%, 95%);
+}
+
+/* .check-out-heading {
+    color: hsl(214, 20%, 69%);
+} */
+
+.project-preview {
+  border: 1px solid hsl(211, 25%, 84%);
+  box-shadow: 0 1px 3px hsl(0deg 0% 0% / 20%);
+  background-color: hsl(210, 38%, 95%);
+}
+
+.project-preview-title,
+.project-preview-technology,
+.blog-post-link a,
+.blog-link {
+  color: hsl(218, 23%, 23%);
+}
+
+/* .project-image,
+.project-video,
+.project-pages-image {
+  border-top: 4px solid hsl(218, 23%, 23%);
+  border-bottom: 4px solid hsl(218, 23%, 23%);
+} */
+
+.project-video{
+  border-top: 12px solid hsl(0, 0%, 0%);
+  border-bottom: 12px solid hsl(0, 0%, 0%);
+}
+
+/* .project-goal h2,
+.project-challenges h2,
+.project-blog-posts-section h2,
+.developer-notes h2,
+.future-plans h2 {
+    color: hsl(218, 23%, 23%);
+} */
+
+
+.blog-post-link a, .blog-link, .project-blog-post-link, .project-external-link {
+    color: hsl(0, 0%, 0%);
+}
+
+.blog-post-link a:hover, .blog-link:hover, .project-blog-post-link:hover, .project-external-link:hover, .prev:hover, .next:hover {
+    /* color: hsl(218, 23%, 23%); */
+    /* border-bottom: 2px solid hsl(218, 23%, 23%); */
+    border-bottom: 2px solid hsl(0, 0%, 0%);
+}
+

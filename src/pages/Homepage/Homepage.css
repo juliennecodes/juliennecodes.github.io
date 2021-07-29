@@ -1,0 +1,50 @@
+.homepage-content {
+  grid-template-areas:
+    "introduction"
+    "project-links"
+    "blog-posts";
+}
+
+.introduction {
+  grid-area: introduction;
+  padding: 36px 24px;
+  display: grid;
+  gap: 12px;
+}
+.projects-links-div {
+  grid-area: project-links;
+  padding: 12px 24px;
+}
+
+.blog-posts-div {
+  grid-area: blog-posts;
+  padding: 12px 24px;
+}
+
+/* ---------------------------------------------------------------------------------------------------- */
+/* Introduction */
+/* ---------------------------------------------------------------------------------------------------- */
+.introduction-heading, .introduction-subheading {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1;
+}
+
+/* ---------------------------------------------------------------------------------------------------- */
+/* Project Links and  Blog Posts */
+/* ---------------------------------------------------------------------------------------------------- */
+.check-out-heading {
+    font-size: 16px;
+}
+
+.blog-post-link {
+  padding-top: 12px;
+  font-size: 16px;
+}
+
+.blog-link {
+  display: inline-block;
+  padding-top: 12px;
+  font-size: 12px;
+
+}

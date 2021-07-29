@@ -1,0 +1,184 @@
+.project-page-content {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "title"
+    "heading"
+    "pages-image"
+    "goal"
+    "video"
+    "challenges"
+    "blog-posts"
+    "image"
+    "developer-notes"
+    "future-plans"
+    "external-links"
+    "prev-next-links";
+}
+
+.project-title {
+  grid-area: title;
+}
+
+.project-heading {
+  grid-area: heading;
+}
+
+.project-pages-image {
+  grid-area: pages-image;
+}
+
+
+.project-goal {
+  grid-area: goal;
+}
+
+.project-video {
+  grid-area: video;
+}
+
+.project-challenges {
+  grid-area: challenges;
+}
+
+.project-blog-posts-section {
+  grid-area: blog-posts;
+}
+
+.project-image {
+  grid-area: image;
+}
+
+.developer-notes {
+  grid-area: developer-notes;
+}
+
+.future-plans {
+  grid-area: future-plans;
+}
+
+.project-external-links {
+  grid-area: external-links;
+}
+
+.prev-next-links {
+  grid-area: prev-next-links;
+}
+
+/* ---------------------------------------------------------------------------------------------------- */
+/* Media */
+/* ---------------------------------------------------------------------------------------------------- */
+.project-image,
+.project-video,
+.project-pages-image {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* ---------------------------------------------------------------------------------------------------- */
+/* Title and Heading */
+/* ---------------------------------------------------------------------------------------------------- */
+.project-title {
+  font-size: 12px;
+  padding: 24px 24px 12px;
+}
+
+.project-heading {
+  font-size: 32px;
+  font-weight: 600;
+  padding: 24px 24px 42px;
+}
+
+/* ---------------------------------------------------------------------------------------------------- */
+/* section, h2, and p */
+/* ---------------------------------------------------------------------------------------------------- */
+/* section */
+.project-goal {
+  padding: 48px 24px 64px;
+}
+
+.project-challenges,
+.developer-notes {
+  padding: 24px 24px;
+}
+
+.project-blog-posts-section,
+.future-plans {
+  padding: 0px 24px 16px;
+}
+
+/* h2 */
+.project-goal h2,
+.project-challenges h2,
+.project-blog-posts-section h2,
+.developer-notes h2,
+.future-plans h2 {
+  font-size: 12px;
+  text-transform: uppercase;
+  padding: 8px 0px;
+}
+
+.project-goal h2 {
+  text-align: center;
+}
+
+/* p */
+.project-challenges h2+p,
+.project-blog-posts-section h2+p,
+.developer-notes h2+p,
+.future-plans h2+p {
+  padding-top: 4px;
+}
+
+.project-goal p,
+.project-challenges p,
+.project-blog-posts-section p,
+.developer-notes p,
+.future-plans p {
+  padding-top: 12px;
+}
+
+/* ---------------------------------------------------------------------------------------------------- */
+/* Blog Posts */
+/* ---------------------------------------------------------------------------------------------------- */
+.project-blog-posts-links {
+  padding: 12px 0px;
+}
+
+/* ---------------------------------------------------------------------------------------------------- */
+/* External Project Links*/
+/* ---------------------------------------------------------------------------------------------------- */
+.project-external-links {
+  font-size: 12px;
+  padding: 4px 24px;
+  text-transform: uppercase;
+}
+/* ---------------------------------------------------------------------------------------------------- */
+/* Prev Next Links */
+/* ---------------------------------------------------------------------------------------------------- */
+.prev-next-links {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas: "prev next";
+  font-size: 12px;
+  padding: 12px 24px;
+  height: 16px;
+}
+
+.prev {
+  grid-area: prev;
+  justify-self: start;
+}
+
+.next {
+  grid-area: next;
+  justify-self: end;
+}
+
+.prev::before {
+  content: "< ";
+}
+
+.next::after {
+  content: " >";
+}

@@ -1,5 +1,6 @@
 import { ProjectLinks } from "./ProjectLinks";
 import { blogPosts } from "../../contents/blog-posts";
+import "./Homepage.css";
 
 export function Homepage() {
   return (
@@ -14,8 +15,8 @@ export function Homepage() {
 function Introduction() {
   return (
     <div className="introduction">
-      <h1 className="introduction-content">Hello, my name is Julienne.</h1>
-      <p className="introduction-content">I am a web developer.</p>
+      <h1 className="introduction-heading">Hello, my name is Julienne.</h1>
+      <p className="introduction-subheading">I am a web developer.</p>
     </div>
   );
 }
@@ -23,7 +24,7 @@ function Introduction() {
 function BlogPostsLinks() {
   return (
     <div className="blog-posts-div">
-      <h2>Blog Posts</h2>
+      <h2 className="check-out-heading">Check out my blog posts!</h2>
       <ul className="blog-posts-links">
         {blogPosts.map((blogPost, index) => {
           return (
@@ -33,7 +34,7 @@ function BlogPostsLinks() {
           );
         })}
       </ul>
-      <a href="https://juliennecodes.github.io/blog/">See all posts</a>
+      <a className="blog-link" href="https://juliennecodes.github.io/blog/">See all posts</a>
     </div>
   );
 }
