@@ -32,7 +32,7 @@ export function ProjectPage({ project, prev, next }) {
       <section className="project-blog-posts-section">
         <h2>More Info</h2>
         <p>
-          For more on my experience on making Annotate, here are the blog posts
+          For more on my experience on making {project.title}, here are the blog posts
           I wrote about it (so far).
         </p>
 
