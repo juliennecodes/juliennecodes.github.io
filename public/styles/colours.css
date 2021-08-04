@@ -1,13 +1,3 @@
-/* * {
-  color: hsl(262, 100%, 99%);
-  color: hsl(262, 100%, 98%);
-  color: hsl(262, 100%, 93%);
-  color: hsl(263, 98%, 83%);
-  color: hsl(265, 95%, 74%);
-  color: hsl(264, 80%, 65%);
-  color: hsl(265, 48%, 9%);
-} */
-
 .App {
   background-color: hsl(262, 100%, 99%);
 }
@@ -18,17 +8,9 @@
 
 .introduction-heading,
 .introduction-subheading {
-  color: hsl(262, 100%, 93%);
   color: hsl(265, 48%, 9%);
 }
 
-/* .projects-links-div {
-  background-color: hsl(263, 98%, 83%);
-} */
-
-/* .blog-posts-div {
-    background-color: hsl(262, 100%, 93%);
-} */
 /* ---------------------------------------------------------------------------------------------------- */
 /* Project Preview Card */
 /* ---------------------------------------------------------------------------------------------------- */
