@@ -6,7 +6,6 @@
     "main"
     "footer";
   min-height: 100vh;
-  max-width: 375px;
   margin: 0 auto;
 }
 
@@ -33,5 +32,13 @@ footer {
   font-size: 10px;
 }
 
-
-
+@media (min-width: 480px) { 
+  .App {
+    grid-template-columns: 1fr minmax(auto, 600px) 1fr;
+    grid-template-areas:
+      "left header right"
+      "left main right"
+      "left footer right";
+    margin: 0;
+  }
+}
