@@ -11,7 +11,7 @@ export function ProjectLinks() {
         {projects.map((project, index) => {
           return (
             <li className="project-link" key={index}>
-              <Link to={`/${project.url}`}>
+              <Link onClick={()=> window.scrollTo(0, 0)} to={`/${project.url}`}>
                 <ProjectPreview project={project}/>
               </Link>
             </li>

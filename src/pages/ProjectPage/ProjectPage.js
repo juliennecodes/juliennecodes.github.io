@@ -110,12 +110,12 @@ function PrevNextProjectLinks({ prev, next }) {
   return (
     <div className="prev-next-links">
       {prev && (
-        <Link className="prev" to={`${prev.url}`}>
+        <Link onClick={()=> window.scrollTo(0, 0)} className="prev" to={`${prev.url}`}>
           {prev.title}
         </Link>
       )}
       {next && (
-        <Link className="next" to={`${next.url}`}>
+        <Link onClick={()=> window.scrollTo(0, 0)} className="next" to={`${next.url}`}>
           {next.title}
         </Link>
       )}
